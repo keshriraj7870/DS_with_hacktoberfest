@@ -33,7 +33,7 @@ void inf(struct deque *p)
     }
     else
     {
-        if(nxt==p->rear)
+        if(nxt==p->rear )
         printf("queue is full");
     }
 }
